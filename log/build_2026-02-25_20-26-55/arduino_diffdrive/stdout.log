@@ -1,0 +1,18 @@
+[100%] Built target arduino_diffdrive_node
+-- Install configuration: ""
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/lib/arduino_diffdrive/arduino_diffdrive_node
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/package_run_dependencies/arduino_diffdrive
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/parent_prefix_path/arduino_diffdrive
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/ament_prefix_path.sh
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/path.sh
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/path.dsv
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.bash
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.sh
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.zsh
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.dsv
+-- Installing: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/package.dsv
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/packages/arduino_diffdrive
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/cmake/arduino_diffdriveConfig.cmake
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/cmake/arduino_diffdriveConfig-version.cmake
+-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/package.xml

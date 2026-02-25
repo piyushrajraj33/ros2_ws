@@ -1,0 +1,25 @@
+[13.444s] Invoking command in '/home/car-pi/ros2_ws/src/robot_tests/motor_test': PYTHONPATH=/home/car-pi/ros2_ws/build/motor_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motor_test build --build-base /home/car-pi/ros2_ws/build/motor_test/build install --record /home/car-pi/ros2_ws/build/motor_test/install.log --single-version-externally-managed install_data
+[18.070s] running egg_info
+[18.080s] writing ../../../build/motor_test/motor_test.egg-info/PKG-INFO
+[18.084s] writing dependency_links to ../../../build/motor_test/motor_test.egg-info/dependency_links.txt
+[18.087s] writing entry points to ../../../build/motor_test/motor_test.egg-info/entry_points.txt
+[18.091s] writing requirements to ../../../build/motor_test/motor_test.egg-info/requires.txt
+[18.094s] writing top-level names to ../../../build/motor_test/motor_test.egg-info/top_level.txt
+[18.122s] reading manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'
+[18.139s] writing manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'
+[18.142s] running build
+[18.144s] running build_py
+[18.149s] warning: build_py: byte-compiling is disabled, skipping.
+[18.151s] 
+[18.153s] running install
+[18.155s] running install_lib
+[18.167s] warning: install_lib: byte-compiling is disabled, skipping.
+[18.169s] 
+[18.171s] running install_data
+[18.172s] running install_egg_info
+[18.198s] removing '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test-0.0.0-py3.10.egg-info' (and everything under it)
+[18.205s] Copying ../../../build/motor_test/motor_test.egg-info to /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test-0.0.0-py3.10.egg-info
+[18.228s] running install_scripts
+[18.570s] Installing motor_test_node script to /home/car-pi/ros2_ws/install/motor_test/lib/motor_test
+[18.576s] writing list of installed files to '/home/car-pi/ros2_ws/build/motor_test/install.log'
+[18.974s] Invoked command in '/home/car-pi/ros2_ws/src/robot_tests/motor_test' returned '0': PYTHONPATH=/home/car-pi/ros2_ws/build/motor_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/motor_test build --build-base /home/car-pi/ros2_ws/build/motor_test/build install --record /home/car-pi/ros2_ws/build/motor_test/install.log --single-version-externally-managed install_data

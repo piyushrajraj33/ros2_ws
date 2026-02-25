@@ -1,0 +1,22 @@
+[0.507s] Invoking command in '/home/car-pi/ros2_ws/build/arduino_diffdrive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/arduino_diffdrive -- -j4 -l4
+[5.820s] [100%] Built target arduino_diffdrive_node
+[5.888s] Invoked command in '/home/car-pi/ros2_ws/build/arduino_diffdrive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/arduino_diffdrive -- -j4 -l4
+[6.040s] Invoking command in '/home/car-pi/ros2_ws/build/arduino_diffdrive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/arduino_diffdrive
+[6.175s] -- Install configuration: ""
+[6.183s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/lib/arduino_diffdrive/arduino_diffdrive_node
+[6.194s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/package_run_dependencies/arduino_diffdrive
+[6.199s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/parent_prefix_path/arduino_diffdrive
+[6.204s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/ament_prefix_path.sh
+[6.208s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/ament_prefix_path.dsv
+[6.212s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/path.sh
+[6.215s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/path.dsv
+[6.217s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.bash
+[6.220s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.sh
+[6.223s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.zsh
+[6.227s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.dsv
+[6.229s] -- Installing: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/package.dsv
+[6.232s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/packages/arduino_diffdrive
+[6.235s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/cmake/arduino_diffdriveConfig.cmake
+[6.238s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/cmake/arduino_diffdriveConfig-version.cmake
+[6.240s] -- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/package.xml
+[6.255s] Invoked command in '/home/car-pi/ros2_ws/build/arduino_diffdrive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/arduino_diffdrive

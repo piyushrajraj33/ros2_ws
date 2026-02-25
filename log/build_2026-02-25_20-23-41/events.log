@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.006810] (arduino_diffdrive) JobQueued: {'identifier': 'arduino_diffdrive', 'dependencies': OrderedDict()}
+[0.008895] (motor_test) JobQueued: {'identifier': 'motor_test', 'dependencies': OrderedDict()}
+[0.009741] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.011021] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.011777] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.012276] (arduino_diffdrive) JobStarted: {'identifier': 'arduino_diffdrive'}
+[0.094969] (-) TimerEvent: {}
+[0.173108] (motor_test) JobStarted: {'identifier': 'motor_test'}
+[0.196449] (-) TimerEvent: {}
+[0.305871] (-) TimerEvent: {}
+[0.316561] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.402807] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.414613] (-) TimerEvent: {}
+[0.520498] (-) TimerEvent: {}
+[0.525891] (arduino_diffdrive) JobProgress: {'identifier': 'arduino_diffdrive', 'progress': 'cmake'}
+[0.536501] (arduino_diffdrive) JobProgress: {'identifier': 'arduino_diffdrive', 'progress': 'build'}
+[0.548578] (arduino_diffdrive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/car-pi/ros2_ws/build/arduino_diffdrive', '--', '-j4', '-l4'], 'cwd': '/home/car-pi/ros2_ws/build/arduino_diffdrive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/arduino_diffdrive'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[0.621050] (-) TimerEvent: {}
+[0.723408] (-) TimerEvent: {}
+[0.825624] (-) TimerEvent: {}
+[0.928545] (-) TimerEvent: {}
+[1.030671] (-) TimerEvent: {}
+[1.133001] (-) TimerEvent: {}
+[1.235258] (-) TimerEvent: {}
+[1.337708] (-) TimerEvent: {}
+[1.440224] (-) TimerEvent: {}
+[1.543302] (-) TimerEvent: {}
+[1.645557] (-) TimerEvent: {}
+[1.748855] (-) TimerEvent: {}
+[1.851099] (-) TimerEvent: {}
+[1.953278] (-) TimerEvent: {}
+[2.055600] (-) TimerEvent: {}
+[2.157947] (-) TimerEvent: {}
+[2.260170] (-) TimerEvent: {}
+[2.362469] (-) TimerEvent: {}
+[2.464763] (-) TimerEvent: {}
+[2.567164] (-) TimerEvent: {}
+[2.669741] (-) TimerEvent: {}
+[2.772147] (-) TimerEvent: {}
+[2.874383] (-) TimerEvent: {}
+[2.976604] (-) TimerEvent: {}
+[3.078685] (-) TimerEvent: {}
+[3.180740] (-) TimerEvent: {}
+[3.282879] (-) TimerEvent: {}
+[3.384971] (-) TimerEvent: {}
+[3.487153] (-) TimerEvent: {}
+[3.589223] (-) TimerEvent: {}
+[3.691402] (-) TimerEvent: {}
+[3.793429] (-) TimerEvent: {}
+[3.895814] (-) TimerEvent: {}
+[3.997984] (-) TimerEvent: {}
+[4.100190] (-) TimerEvent: {}
+[4.202385] (-) TimerEvent: {}
+[4.304525] (-) TimerEvent: {}
+[4.406721] (-) TimerEvent: {}
+[4.508804] (-) TimerEvent: {}
+[4.611011] (-) TimerEvent: {}
+[4.713121] (-) TimerEvent: {}
+[4.815315] (-) TimerEvent: {}
+[4.917409] (-) TimerEvent: {}
+[5.019619] (-) TimerEvent: {}
+[5.121958] (-) TimerEvent: {}
+[5.224486] (-) TimerEvent: {}
+[5.326684] (-) TimerEvent: {}
+[5.428736] (-) TimerEvent: {}
+[5.530822] (-) TimerEvent: {}
+[5.633222] (-) TimerEvent: {}
+[5.735710] (-) TimerEvent: {}
+[5.838167] (-) TimerEvent: {}
+[5.944156] (-) TimerEvent: {}
+[5.952435] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[5.962504] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[5.966500] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/car-pi/ros2_ws/build/robot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/car-pi/ros2_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[6.023664] (arduino_diffdrive) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arduino_diffdrive_node\x1b[0m\n'}
+[6.036959] (arduino_diffdrive) StdoutLine: {'line': b'[100%] Built target arduino_diffdrive_node\n'}
+[6.042699] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[6.044780] (-) TimerEvent: {}
+[6.057042] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[6.061233] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/car-pi/ros2_ws/build/robot_description', '--', '-j4', '-l4'], 'cwd': '/home/car-pi/ros2_ws/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[6.101568] (arduino_diffdrive) CommandEnded: {'returncode': 0}
+[6.108886] (arduino_diffdrive) JobProgress: {'identifier': 'arduino_diffdrive', 'progress': 'install'}
+[6.145277] (-) TimerEvent: {}
+[6.241008] (arduino_diffdrive) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/car-pi/ros2_ws/build/arduino_diffdrive'], 'cwd': '/home/car-pi/ros2_ws/build/arduino_diffdrive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/arduino_diffdrive'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[6.257771] (-) TimerEvent: {}
+[6.372948] (-) TimerEvent: {}
+[6.397311] (arduino_diffdrive) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.411737] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/lib/arduino_diffdrive/arduino_diffdrive_node\n'}
+[6.422296] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/package_run_dependencies/arduino_diffdrive\n'}
+[6.427926] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/parent_prefix_path/arduino_diffdrive\n'}
+[6.434050] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/ament_prefix_path.sh\n'}
+[6.439639] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/ament_prefix_path.dsv\n'}
+[6.445296] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/path.sh\n'}
+[6.450999] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/environment/path.dsv\n'}
+[6.455603] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.bash\n'}
+[6.460151] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.sh\n'}
+[6.464806] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.zsh\n'}
+[6.467130] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/local_setup.dsv\n'}
+[6.469145] (arduino_diffdrive) StdoutLine: {'line': b'-- Installing: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/package.dsv\n'}
+[6.472125] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/ament_index/resource_index/packages/arduino_diffdrive\n'}
+[6.476208] (-) TimerEvent: {}
+[6.481369] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/cmake/arduino_diffdriveConfig.cmake\n'}
+[6.484332] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/cmake/arduino_diffdriveConfig-version.cmake\n'}
+[6.486649] (arduino_diffdrive) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/arduino_diffdrive/share/arduino_diffdrive/package.xml\n'}
+[6.512175] (arduino_diffdrive) CommandEnded: {'returncode': 0}
+[6.577618] (-) TimerEvent: {}
+[6.683628] (-) TimerEvent: {}
+[6.785698] (-) TimerEvent: {}
+[6.897505] (-) TimerEvent: {}
+[6.942617] (arduino_diffdrive) JobEnded: {'identifier': 'arduino_diffdrive', 'rc': 0}
+[6.959753] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[7.002629] (-) TimerEvent: {}
+[7.055222] (robot_bringup) CommandEnded: {'returncode': 0}
+[7.064155] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'install'}
+[7.067883] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/car-pi/ros2_ws/build/robot_bringup'], 'cwd': '/home/car-pi/ros2_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[7.101187] (robot_description) CommandEnded: {'returncode': 0}
+[7.106692] (-) TimerEvent: {}
+[7.112790] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[7.127280] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/car-pi/ros2_ws/build/robot_description'], 'cwd': '/home/car-pi/ros2_ws/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[7.173581] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[7.189068] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[7.195406] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[7.209612] (-) TimerEvent: {}
+[7.228826] (robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.236755] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[7.255091] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/robot_base.launch.py\n'}
+[7.257150] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py\n'}
+[7.259382] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/bringup.launchbkp.py\n'}
+[7.264187] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/robot_state.launch.py\n'}
+[7.266202] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/lidar.launch.py\n'}
+[7.277975] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[7.282286] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config/ekf.yaml\n'}
+[7.293482] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config/diff_drive.yaml\n'}
+[7.312795] (-) TimerEvent: {}
+[7.321496] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config/ydlidar.yaml\n'}
+[7.332993] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/urdf\n'}
+[7.344841] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/urdf/robot.urdf.xacro\n'}
+[7.348656] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup\n'}
+[7.351480] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup\n'}
+[7.354907] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh\n'}
+[7.358266] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv\n'}
+[7.362274] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/path.sh\n'}
+[7.366157] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/path.dsv\n'}
+[7.369846] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.bash\n'}
+[7.373282] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.sh\n'}
+[7.376376] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.zsh\n'}
+[7.380696] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.384454] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[7.387159] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[7.389215] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[7.392012] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[7.394855] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.dsv\n'}
+[7.397251] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[7.400050] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/package.dsv\n'}
+[7.402479] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup\n'}
+[7.410472] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake\n'}
+[7.414168] (-) TimerEvent: {}
+[7.420742] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake\n'}
+[7.426577] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[7.429851] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/package.xml\n'}
+[7.435066] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[7.437440] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[7.440388] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[7.445890] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[7.452350] (robot_description) StdoutLine: {'line': b'-- Installing: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[7.454197] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[7.456376] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[7.459406] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[7.462399] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[7.467828] (robot_bringup) CommandEnded: {'returncode': 0}
+[7.515182] (-) TimerEvent: {}
+[7.631241] (-) TimerEvent: {}
+[7.687024] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[7.705240] (robot_description) CommandEnded: {'returncode': 0}
+[7.731626] (-) TimerEvent: {}
+[7.835253] (-) TimerEvent: {}
+[7.949169] (-) TimerEvent: {}
+[7.968914] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[8.049773] (-) TimerEvent: {}
+[8.077378] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[8.081088] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[8.150130] (-) TimerEvent: {}
+[8.252122] (-) TimerEvent: {}
+[8.354090] (-) TimerEvent: {}
+[8.456235] (-) TimerEvent: {}
+[8.480757] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[8.517397] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[8.556658] (-) TimerEvent: {}
+[8.658990] (-) TimerEvent: {}
+[8.679279] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[8.688754] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[8.703115] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'car-pi'), ('SSH_CLIENT', '10.20.134.206 51470 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/car-pi'), ('OLDPWD', '/home/car-pi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/car-pi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'car-pi'), ('PYTHONDONTWRITEBYTECODE', '1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', 'ccache g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.20.134.206 51470 10.20.134.139 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', 'ccache gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble')]), 'shell': False}
+[8.759397] (-) TimerEvent: {}
+[8.823898] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.830239] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[8.840740] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[8.846659] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[8.849111] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[8.852395] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[8.854790] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[8.857840] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[8.860832] (-) TimerEvent: {}
+[8.862769] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[8.866148] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[8.869436] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[8.871840] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[8.874230] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[8.876402] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[8.878250] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[8.880412] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[8.882253] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[8.885933] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[8.888884] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[8.891432] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[8.893740] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[8.895885] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[8.912361] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[8.916777] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[8.918913] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[8.920739] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[8.922773] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[8.924613] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[8.926591] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[8.928565] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[8.930546] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[8.936302] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[8.950662] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[8.953540] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[8.956540] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[8.958783] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[8.961795] (-) TimerEvent: {}
+[8.963847] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[8.966199] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[8.970049] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[9.064037] (-) TimerEvent: {}
+[9.170835] (-) TimerEvent: {}
+[9.228600] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[9.271186] (-) TimerEvent: {}
+[9.372910] (-) TimerEvent: {}
+[9.474770] (-) TimerEvent: {}
+[9.576560] (-) TimerEvent: {}
+[9.678447] (-) TimerEvent: {}
+[9.780246] (-) TimerEvent: {}
+[9.882118] (-) TimerEvent: {}
+[9.984056] (-) TimerEvent: {}
+[10.085945] (-) TimerEvent: {}
+[10.187829] (-) TimerEvent: {}
+[10.289733] (-) TimerEvent: {}
+[10.391706] (-) TimerEvent: {}
+[10.493482] (-) TimerEvent: {}
+[10.595422] (-) TimerEvent: {}
+[10.697257] (-) TimerEvent: {}
+[10.799147] (-) TimerEvent: {}
+[10.901024] (-) TimerEvent: {}
+[11.002989] (-) TimerEvent: {}
+[11.104805] (-) TimerEvent: {}
+[11.206696] (-) TimerEvent: {}
+[11.308577] (-) TimerEvent: {}
+[11.410496] (-) TimerEvent: {}
+[11.512465] (-) TimerEvent: {}
+[11.614493] (-) TimerEvent: {}
+[11.716396] (-) TimerEvent: {}
+[11.818244] (-) TimerEvent: {}
+[11.920286] (-) TimerEvent: {}
+[12.022500] (-) TimerEvent: {}
+[12.124291] (-) TimerEvent: {}
+[12.226130] (-) TimerEvent: {}
+[12.328056] (-) TimerEvent: {}
+[12.429866] (-) TimerEvent: {}
+[12.531825] (-) TimerEvent: {}
+[12.634011] (-) TimerEvent: {}
+[12.735906] (-) TimerEvent: {}
+[12.837763] (-) TimerEvent: {}
+[12.940097] (-) TimerEvent: {}
+[13.041991] (-) TimerEvent: {}
+[13.144188] (-) TimerEvent: {}
+[13.246646] (-) TimerEvent: {}
+[13.348873] (-) TimerEvent: {}
+[13.451179] (-) TimerEvent: {}
+[13.553123] (-) TimerEvent: {}
+[13.655032] (-) TimerEvent: {}
+[13.756936] (-) TimerEvent: {}
+[13.858976] (-) TimerEvent: {}
+[13.961329] (-) TimerEvent: {}
+[14.063788] (-) TimerEvent: {}
+[14.165723] (-) TimerEvent: {}
+[14.267859] (-) TimerEvent: {}
+[14.370011] (-) TimerEvent: {}
+[14.472003] (-) TimerEvent: {}
+[14.574130] (-) TimerEvent: {}
+[14.676293] (-) TimerEvent: {}
+[14.778644] (-) TimerEvent: {}
+[14.880717] (-) TimerEvent: {}
+[14.919512] (motor_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/motor_test', 'build', '--build-base', '/home/car-pi/ros2_ws/build/motor_test/build', 'install', '--record', '/home/car-pi/ros2_ws/build/motor_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/car-pi/ros2_ws/src/robot_tests/motor_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'car-pi', 'SSH_CLIENT': '10.20.134.206 51470 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/car-pi', 'OLDPWD': '/home/car-pi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/car-pi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'car-pi', 'PYTHONDONTWRITEBYTECODE': '1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/motor_test:/home/car-pi/ros2_ws/install/arduino_diffdrive:/opt/ros/humble', 'SHELL': '/bin/bash', 'CXX': 'ccache g++', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/car-pi/ros2_ws/build/motor_test', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.20.134.206 51470 10.20.134.139 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/car-pi/ros2_ws/build/motor_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CC': 'ccache gcc', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/car-pi/ros2_ws/install/ydlidar_ros2_driver:/home/car-pi/ros2_ws/install/robot_description:/home/car-pi/ros2_ws/install/robot_bringup:/home/car-pi/ros2_ws/install/arduino_diffdrive'}, 'shell': False}
+[14.981076] (-) TimerEvent: {}
+[15.083836] (-) TimerEvent: {}
+[15.185696] (-) TimerEvent: {}
+[15.287696] (-) TimerEvent: {}
+[15.389398] (-) TimerEvent: {}
+[15.491335] (-) TimerEvent: {}
+[15.593208] (-) TimerEvent: {}
+[15.695061] (-) TimerEvent: {}
+[15.796797] (-) TimerEvent: {}
+[15.898744] (-) TimerEvent: {}
+[16.000652] (-) TimerEvent: {}
+[16.102694] (-) TimerEvent: {}
+[16.204621] (-) TimerEvent: {}
+[16.306485] (-) TimerEvent: {}
+[16.408268] (-) TimerEvent: {}
+[16.510094] (-) TimerEvent: {}
+[16.611988] (-) TimerEvent: {}
+[16.713742] (-) TimerEvent: {}
+[16.815675] (-) TimerEvent: {}
+[16.917452] (-) TimerEvent: {}
+[17.019333] (-) TimerEvent: {}
+[17.121121] (-) TimerEvent: {}
+[17.222994] (-) TimerEvent: {}
+[17.324794] (-) TimerEvent: {}
+[17.426616] (-) TimerEvent: {}
+[17.528438] (-) TimerEvent: {}
+[17.630426] (-) TimerEvent: {}
+[17.732210] (-) TimerEvent: {}
+[17.833960] (-) TimerEvent: {}
+[17.935841] (-) TimerEvent: {}
+[18.037616] (-) TimerEvent: {}
+[18.139556] (-) TimerEvent: {}
+[18.241350] (-) TimerEvent: {}
+[18.343229] (-) TimerEvent: {}
+[18.445039] (-) TimerEvent: {}
+[18.546882] (-) TimerEvent: {}
+[18.648678] (-) TimerEvent: {}
+[18.750697] (-) TimerEvent: {}
+[18.852514] (-) TimerEvent: {}
+[18.954569] (-) TimerEvent: {}
+[19.056374] (-) TimerEvent: {}
+[19.158532] (-) TimerEvent: {}
+[19.260359] (-) TimerEvent: {}
+[19.362422] (-) TimerEvent: {}
+[19.464212] (-) TimerEvent: {}
+[19.566107] (-) TimerEvent: {}
+[19.580782] (motor_test) StdoutLine: {'line': b'running egg_info\n'}
+[19.591456] (motor_test) StdoutLine: {'line': b'writing ../../../build/motor_test/motor_test.egg-info/PKG-INFO\n'}
+[19.595335] (motor_test) StdoutLine: {'line': b'writing dependency_links to ../../../build/motor_test/motor_test.egg-info/dependency_links.txt\n'}
+[19.599376] (motor_test) StdoutLine: {'line': b'writing entry points to ../../../build/motor_test/motor_test.egg-info/entry_points.txt\n'}
+[19.602515] (motor_test) StdoutLine: {'line': b'writing requirements to ../../../build/motor_test/motor_test.egg-info/requires.txt\n'}
+[19.605160] (motor_test) StdoutLine: {'line': b'writing top-level names to ../../../build/motor_test/motor_test.egg-info/top_level.txt\n'}
+[19.633893] (motor_test) StdoutLine: {'line': b"reading manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'\n"}
+[19.650756] (motor_test) StdoutLine: {'line': b"writing manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'\n"}
+[19.653093] (motor_test) StdoutLine: {'line': b'running build\n'}
+[19.655008] (motor_test) StdoutLine: {'line': b'running build_py\n'}
+[19.659856] (motor_test) StderrLine: {'line': b'warning: build_py: byte-compiling is disabled, skipping.\n'}
+[19.661879] (motor_test) StderrLine: {'line': b'\n'}
+[19.663849] (motor_test) StdoutLine: {'line': b'running install\n'}
+[19.665864] (motor_test) StdoutLine: {'line': b'running install_lib\n'}
+[19.667652] (-) TimerEvent: {}
+[19.678575] (motor_test) StderrLine: {'line': b'warning: install_lib: byte-compiling is disabled, skipping.\n'}
+[19.680355] (motor_test) StderrLine: {'line': b'\n'}
+[19.682445] (motor_test) StdoutLine: {'line': b'running install_data\n'}
+[19.684154] (motor_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.709669] (motor_test) StdoutLine: {'line': b"removing '/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.716661] (motor_test) StdoutLine: {'line': b'Copying ../../../build/motor_test/motor_test.egg-info to /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test-0.0.0-py3.10.egg-info\n'}
+[19.740361] (motor_test) StdoutLine: {'line': b'running install_scripts\n'}
+[19.768033] (-) TimerEvent: {}
+[19.869958] (-) TimerEvent: {}
+[19.971945] (-) TimerEvent: {}
+[20.073762] (-) TimerEvent: {}
+[20.083226] (motor_test) StdoutLine: {'line': b'Installing motor_test_node script to /home/car-pi/ros2_ws/install/motor_test/lib/motor_test\n'}
+[20.089305] (motor_test) StdoutLine: {'line': b"writing list of installed files to '/home/car-pi/ros2_ws/build/motor_test/install.log'\n"}
+[20.174468] (-) TimerEvent: {}
+[20.276505] (-) TimerEvent: {}
+[20.378704] (-) TimerEvent: {}
+[20.481760] (motor_test) CommandEnded: {'returncode': 0}
+[20.491138] (-) TimerEvent: {}
+[20.593734] (-) TimerEvent: {}
+[20.607948] (motor_test) JobEnded: {'identifier': 'motor_test', 'rc': 0}
+[20.620278] (-) EventReactorShutdown: {}

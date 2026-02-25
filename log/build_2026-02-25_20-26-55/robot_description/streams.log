@@ -1,0 +1,20 @@
+[5.520s] Invoking command in '/home/car-pi/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/robot_description -- -j4 -l4
+[6.398s] Invoked command in '/home/car-pi/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/robot_description -- -j4 -l4
+[6.422s] Invoking command in '/home/car-pi/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/robot_description
+[6.603s] -- Install configuration: ""
+[6.605s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[6.610s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[6.617s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[6.623s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[6.632s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[6.661s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[6.663s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[6.666s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[6.668s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[6.670s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[6.681s] -- Installing: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[6.686s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[6.689s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[6.693s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[6.696s] -- Up-to-date: /home/car-pi/ros2_ws/install/robot_description/share/robot_description/package.xml
+[6.784s] Invoked command in '/home/car-pi/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/robot_description

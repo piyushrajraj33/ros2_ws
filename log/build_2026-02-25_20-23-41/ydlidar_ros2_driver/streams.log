@@ -1,0 +1,46 @@
+[0.247s] Invoking command in '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[1.122s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client[0m
+[1.522s] [ 50%] Built target ydlidar_ros2_driver_client
+[1.559s] [100%] Built target ydlidar_ros2_driver_node
+[1.721s] Invoked command in '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[1.755s] Invoking command in '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/ydlidar_ros2_driver
+[1.865s] -- Install configuration: ""
+[1.872s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[1.882s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[1.888s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[1.892s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[1.894s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[1.897s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[1.900s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[1.905s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[1.909s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[1.911s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[1.913s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[1.916s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[1.918s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[1.920s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[1.921s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[1.925s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[1.928s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[1.931s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[1.933s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[1.935s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[1.951s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[1.955s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[1.958s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[1.960s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[1.962s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[1.964s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[1.966s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[1.968s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[1.970s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[1.975s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[1.982s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[1.993s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[1.996s] -- Installing: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[1.998s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[2.001s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[2.005s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[2.009s] -- Up-to-date: /home/car-pi/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[2.013s] Invoked command in '/home/car-pi/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/ydlidar_ros2_driver
