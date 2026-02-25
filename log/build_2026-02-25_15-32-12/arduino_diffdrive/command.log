@@ -1,6 +1,0 @@
-Invoking command in '/home/car-pi/ros2_ws/build/arduino_diffdrive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/car-pi/ros2_ws/src/robot_hardware/arduino_diffdrive -DCMAKE_INSTALL_PREFIX=/home/car-pi/ros2_ws/install/arduino_diffdrive
-Invoked command in '/home/car-pi/ros2_ws/build/arduino_diffdrive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/car-pi/ros2_ws/src/robot_hardware/arduino_diffdrive -DCMAKE_INSTALL_PREFIX=/home/car-pi/ros2_ws/install/arduino_diffdrive
-Invoking command in '/home/car-pi/ros2_ws/build/arduino_diffdrive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/arduino_diffdrive -- -j4 -l4
-Invoked command in '/home/car-pi/ros2_ws/build/arduino_diffdrive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/arduino_diffdrive -- -j4 -l4
-Invoking command in '/home/car-pi/ros2_ws/build/arduino_diffdrive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/arduino_diffdrive
-Invoked command in '/home/car-pi/ros2_ws/build/arduino_diffdrive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/arduino_diffdrive

@@ -1,1 +1,0 @@
-controller_manager:diff_drive_controller:joint_state_publisher:launch:launch_ros:nav2_bringup:rclpy:robot_localization:robot_state_publisher:xacro
