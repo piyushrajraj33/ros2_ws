@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/motor_test/motor_test.egg-info
+writing ../../../build/motor_test/motor_test.egg-info/PKG-INFO
+writing dependency_links to ../../../build/motor_test/motor_test.egg-info/dependency_links.txt
+writing entry points to ../../../build/motor_test/motor_test.egg-info/entry_points.txt
+writing requirements to ../../../build/motor_test/motor_test.egg-info/requires.txt
+writing top-level names to ../../../build/motor_test/motor_test.egg-info/top_level.txt
+writing manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'
+reading manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'
+writing manifest file '../../../build/motor_test/motor_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/car-pi/ros2_ws/build/motor_test/build
+creating /home/car-pi/ros2_ws/build/motor_test/build/lib
+creating /home/car-pi/ros2_ws/build/motor_test/build/lib/motor_test
+copying motor_test/__init__.py -> /home/car-pi/ros2_ws/build/motor_test/build/lib/motor_test
+copying motor_test/motor_test_node.py -> /home/car-pi/ros2_ws/build/motor_test/build/lib/motor_test
+running install
+warning: build_py: byte-compiling is disabled, skipping.
+
+running install_lib
+creating /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test
+copying /home/car-pi/ros2_ws/build/motor_test/build/lib/motor_test/__init__.py -> /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test
+copying /home/car-pi/ros2_ws/build/motor_test/build/lib/motor_test/motor_test_node.py -> /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_data
+creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index
+creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index
+creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index/packages
+copying resource/motor_test -> /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/car-pi/ros2_ws/install/motor_test/share/motor_test
+running install_egg_info
+Copying ../../../build/motor_test/motor_test.egg-info to /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_test_node script to /home/car-pi/ros2_ws/install/motor_test/lib/motor_test
+writing list of installed files to '/home/car-pi/ros2_ws/build/motor_test/install.log'
