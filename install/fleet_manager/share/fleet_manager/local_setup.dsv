@@ -1,2 +1,1 @@
-source;share/fleet_manager/environment/ament_prefix_path.sh
-source;share/fleet_manager/environment/path.sh
+/home/car-pi/ros2_ws/build/fleet_manager/ament_cmake_environment_hooks/local_setup.dsv

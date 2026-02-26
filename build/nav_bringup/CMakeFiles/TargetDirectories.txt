@@ -1,0 +1,9 @@
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/uninstall.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/nav_bringup_uninstall.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/test.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/edit_cache.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/rebuild_cache.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/list_install_components.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/install.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/install/local.dir
+/home/car-pi/ros2_ws/build/nav_bringup/CMakeFiles/install/strip.dir

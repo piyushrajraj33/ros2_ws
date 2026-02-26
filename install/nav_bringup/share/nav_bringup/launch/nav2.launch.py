@@ -1,0 +1,1 @@
+/home/car-pi/ros2_ws/src/nav_bringup/launch/nav2.launch.py

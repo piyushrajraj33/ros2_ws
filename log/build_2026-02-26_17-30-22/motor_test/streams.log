@@ -1,0 +1,24 @@
+[25.108s] Invoking command in '/home/car-pi/ros2_ws/build/motor_test': PYTHONPATH=/home/car-pi/ros2_ws/build/motor_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/car-pi/ros2_ws/build/motor_test/build --no-deps symlink_data
+[33.212s] running develop
+[39.177s] running egg_info
+[39.181s] creating motor_test.egg-info
+[39.184s] writing motor_test.egg-info/PKG-INFO
+[39.193s] writing dependency_links to motor_test.egg-info/dependency_links.txt
+[39.196s] writing entry points to motor_test.egg-info/entry_points.txt
+[39.207s] writing requirements to motor_test.egg-info/requires.txt
+[39.213s] writing top-level names to motor_test.egg-info/top_level.txt
+[39.216s] writing manifest file 'motor_test.egg-info/SOURCES.txt'
+[39.237s] reading manifest file 'motor_test.egg-info/SOURCES.txt'
+[39.253s] writing manifest file 'motor_test.egg-info/SOURCES.txt'
+[39.282s] running build_ext
+[39.289s] Creating /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor-test.egg-link (link to .)
+[39.325s] Installing motor_test_node script to /home/car-pi/ros2_ws/install/motor_test/lib/motor_test
+[39.334s] 
+[39.348s] Installed /home/car-pi/ros2_ws/build/motor_test
+[39.350s] running symlink_data
+[39.352s] creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index
+[39.361s] creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index
+[39.380s] creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index/packages
+[39.382s] symbolically linking /home/car-pi/ros2_ws/build/motor_test/resource/motor_test -> /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index/packages
+[39.385s] symbolically linking /home/car-pi/ros2_ws/build/motor_test/package.xml -> /home/car-pi/ros2_ws/install/motor_test/share/motor_test
+[40.390s] Invoked command in '/home/car-pi/ros2_ws/build/motor_test' returned '0': PYTHONPATH=/home/car-pi/ros2_ws/build/motor_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/car-pi/ros2_ws/build/motor_test/build --no-deps symlink_data

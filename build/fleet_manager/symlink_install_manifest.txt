@@ -1,0 +1,16 @@
+/home/car-pi/ros2_ws/install/fleet_manager/lib/fleet_manager/fleet_manager_node
+/home/car-pi/ros2_ws/install/fleet_manager/share/ament_index/resource_index/package_run_dependencies/fleet_manager
+/home/car-pi/ros2_ws/install/fleet_manager/share/ament_index/resource_index/parent_prefix_path/fleet_manager
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/environment/ament_prefix_path.sh
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/environment/ament_prefix_path.dsv
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/environment/path.sh
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/environment/path.dsv
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/local_setup.bash
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/local_setup.sh
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/local_setup.zsh
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/local_setup.dsv
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/package.dsv
+/home/car-pi/ros2_ws/install/fleet_manager/share/ament_index/resource_index/packages/fleet_manager
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/cmake/fleet_managerConfig.cmake
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/cmake/fleet_managerConfig-version.cmake
+/home/car-pi/ros2_ws/install/fleet_manager/share/fleet_manager/package.xml

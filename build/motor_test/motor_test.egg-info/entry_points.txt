@@ -1,0 +1,3 @@
+[console_scripts]
+motor_test_node = motor_test.motor_test_node:main
+

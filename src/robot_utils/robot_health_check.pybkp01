@@ -1,0 +1,191 @@
+#!/usr/bin/env python3
+import subprocess
+import time
+import re
+import sys
+
+# ------------------------------
+# Utility helpers
+# ------------------------------
+
+GREEN = "\033[92m"
+YELLOW = "\033[93m"
+RED = "\033[91m"
+RESET = "\033[0m"
+
+score = 0
+max_score = 0
+
+def status(label, state):
+    if state == "OK":
+        print(f"{GREEN}[OK]{RESET}   {label}")
+    elif state == "WARN":
+        print(f"{YELLOW}[WARN]{RESET} {label}")
+    else:
+        print(f"{RED}[FAIL]{RESET} {label}")
+
+def run_cmd(cmd, timeout=5):
+    try:
+        result = subprocess.check_output(
+            cmd,
+            shell=True,
+            text=True,
+            stderr=subprocess.STDOUT,
+            timeout=timeout
+        )
+        return result.strip()
+    except subprocess.TimeoutExpired:
+        return "[TIMEOUT]"
+    except subprocess.CalledProcessError as e:
+        return f"[ERROR]\n{e.output.strip()}"
+
+def section(title):
+    print("\n" + "=" * 70)
+    print(f"  {title}")
+    print("=" * 70)
+
+def contains_partial(targets, text):
+    return any(t in text for t in targets)
+
+# ------------------------------
+# Health Checks
+# ------------------------------
+
+def check_nodes():
+    global score, max_score
+    max_score += 2
+
+    nodes = run_cmd("ros2 node list")
+
+    if contains_partial(["arduino_diffdrive"], nodes):
+        status("Arduino DiffDrive Node", "OK")
+        score += 1
+    else:
+        status("Arduino DiffDrive Node", "FAIL")
+
+    if contains_partial(["ydlidar"], nodes):
+        status("YDLidar Node", "OK")
+        score += 1
+    else:
+        status("YDLidar Node", "FAIL")
+
+def check_topics():
+    global score, max_score
+    max_score += 3
+
+    topics = run_cmd("ros2 topic list")
+
+    required = {
+        "/scan": False,
+        "/odom": False,
+        "/cmd_vel": False,
+    }
+
+    for t in required:
+        if t in topics:
+            required[t] = True
+            score += 1
+            status(f"{t} topic", "OK")
+        else:
+            status(f"{t} topic", "FAIL")
+
+def check_frequency(topic, min_rate):
+    global score, max_score
+    max_score += 1
+
+    hz_output = run_cmd(f"timeout 6 ros2 topic hz {topic}", timeout=7)
+
+    match = re.search(r"average rate: ([0-9.]+)", hz_output)
+
+    if match:
+        rate = float(match.group(1))
+        print(f"{topic} rate: {rate:.2f} Hz")
+
+        if rate >= min_rate:
+            status(f"{topic} frequency >= {min_rate} Hz", "OK")
+            score += 1
+        elif rate > 0:
+            status(f"{topic} frequency low", "WARN")
+        else:
+            status(f"{topic} frequency zero", "FAIL")
+    else:
+        status(f"{topic} frequency check failed", "FAIL")
+
+def check_tf_chain():
+    global score, max_score
+    max_score += 1
+
+    tf_check = run_cmd(
+        "timeout 3 ros2 run tf2_ros tf2_echo base_link laser_frame",
+        timeout=4
+    )
+
+    if "Translation" in tf_check:
+        status("TF base_link -> laser_frame", "OK")
+        score += 1
+    else:
+        status("TF base_link -> laser_frame", "FAIL")
+
+def check_memory():
+    global score, max_score
+    max_score += 1
+
+    mem = run_cmd("free -m")
+    lines = mem.split("\n")
+
+    if len(lines) > 1:
+        parts = lines[1].split()
+        total = int(parts[1])
+        used = int(parts[2])
+        usage_percent = (used / total) * 100
+
+        print(f"Memory usage: {usage_percent:.1f}%")
+
+        if usage_percent < 80:
+            status("Memory usage", "OK")
+            score += 1
+        elif usage_percent < 90:
+            status("Memory usage high", "WARN")
+        else:
+            status("Memory usage critical", "FAIL")
+
+# ------------------------------
+# Main
+# ------------------------------
+
+def main():
+    section("ROS2 ROBOT DIAGNOSTIC REPORT")
+    print("Timestamp:", time.strftime("%Y-%m-%d %H:%M:%S"))
+
+    section("ENVIRONMENT")
+    print(run_cmd("printenv | grep ROS"))
+
+    section("NODE CHECK")
+    check_nodes()
+
+    section("TOPIC CHECK")
+    check_topics()
+
+    section("FREQUENCY CHECK")
+    check_frequency("/scan", 5)
+    check_frequency("/odom", 10)
+
+    section("TF CHECK")
+    check_tf_chain()
+
+    section("SYSTEM CHECK")
+    check_memory()
+
+    section("FINAL SCORE")
+    percent = (score / max_score) * 100
+    print(f"Score: {score}/{max_score} ({percent:.1f}%)")
+
+    if percent > 85:
+        print(GREEN + "System READY for SLAM / NAV2" + RESET)
+    elif percent > 60:
+        print(YELLOW + "System PARTIALLY READY (check warnings)" + RESET)
+    else:
+        print(RED + "System NOT READY" + RESET)
+
+if __name__ == "__main__":
+    main()

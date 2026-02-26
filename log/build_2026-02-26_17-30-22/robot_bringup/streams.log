@@ -1,0 +1,50 @@
+[0.181s] Invoking command in '/home/car-pi/ros2_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake /home/car-pi/ros2_ws/src/robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/car-pi/ros2_ws/install/robot_bringup
+[2.029s] -- The C compiler identification is GNU 11.4.0
+[4.088s] -- The CXX compiler identification is GNU 11.4.0
+[4.323s] -- Detecting C compiler ABI info
+[6.195s] -- Detecting C compiler ABI info - done
+[6.387s] -- Check for working C compiler: /usr/bin/ccache - skipped
+[6.396s] -- Detecting C compile features
+[6.401s] -- Detecting C compile features - done
+[6.473s] -- Detecting CXX compiler ABI info
+[8.409s] -- Detecting CXX compiler ABI info - done
+[8.614s] -- Check for working CXX compiler: /usr/bin/ccache - skipped
+[8.627s] -- Detecting CXX compile features
+[8.640s] -- Detecting CXX compile features - done
+[8.834s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.040s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[16.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[20.447s] -- Configuring done
+[20.653s] -- Generating done
+[20.759s] -- Build files have been written to: /home/car-pi/ros2_ws/build/robot_bringup
+[20.923s] Invoked command in '/home/car-pi/ros2_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake /home/car-pi/ros2_ws/src/robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/car-pi/ros2_ws/install/robot_bringup
+[20.941s] Invoking command in '/home/car-pi/ros2_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/robot_bringup -- -j4 -l4
+[22.069s] Invoked command in '/home/car-pi/ros2_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --build /home/car-pi/ros2_ws/build/robot_bringup -- -j4 -l4
+[22.096s] Invoking command in '/home/car-pi/ros2_ws/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/robot_bringup
+[22.361s] -- Install configuration: ""
+[22.395s] -- Execute custom install script
+[22.408s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+[22.607s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/bringup.launchbkp.py
+[22.796s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/lidar.launch.py
+[23.116s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/robot_base.launch.py
+[23.335s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/launch/robot_state.launch.py
+[23.557s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config/diff_drive.yaml
+[23.797s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config/ekf.yaml
+[24.079s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/config/ydlidar.yaml
+[24.351s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/urdf/robot.urdf.xacro
+[24.553s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[24.751s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[25.141s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[25.480s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[25.754s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/path.sh
+[26.007s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[26.176s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.bash
+[26.342s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.sh
+[26.555s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[26.799s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[27.091s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/package.dsv
+[27.323s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[27.562s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[27.808s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[28.015s] -- Symlinking: /home/car-pi/ros2_ws/install/robot_bringup/share/robot_bringup/package.xml
+[28.298s] Invoked command in '/home/car-pi/ros2_ws/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/car-pi/ros2_ws/install/motor_test:/opt/ros/humble /usr/bin/cmake --install /home/car-pi/ros2_ws/build/robot_bringup

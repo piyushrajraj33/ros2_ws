@@ -1,0 +1,10 @@
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/uninstall.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/arduino_diffdrive_uninstall.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/arduino_diffdrive_node.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/test.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/edit_cache.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/rebuild_cache.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/list_install_components.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/install.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/install/local.dir
+/home/car-pi/ros2_ws/build/arduino_diffdrive/CMakeFiles/install/strip.dir

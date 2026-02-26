@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating motor_test.egg-info
+writing motor_test.egg-info/PKG-INFO
+writing dependency_links to motor_test.egg-info/dependency_links.txt
+writing entry points to motor_test.egg-info/entry_points.txt
+writing requirements to motor_test.egg-info/requires.txt
+writing top-level names to motor_test.egg-info/top_level.txt
+writing manifest file 'motor_test.egg-info/SOURCES.txt'
+reading manifest file 'motor_test.egg-info/SOURCES.txt'
+writing manifest file 'motor_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/car-pi/ros2_ws/install/motor_test/lib/python3.10/site-packages/motor-test.egg-link (link to .)
+Installing motor_test_node script to /home/car-pi/ros2_ws/install/motor_test/lib/motor_test
+
+Installed /home/car-pi/ros2_ws/build/motor_test
+running symlink_data
+creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index
+creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index
+creating /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index/packages
+symbolically linking /home/car-pi/ros2_ws/build/motor_test/resource/motor_test -> /home/car-pi/ros2_ws/install/motor_test/share/ament_index/resource_index/packages
+symbolically linking /home/car-pi/ros2_ws/build/motor_test/package.xml -> /home/car-pi/ros2_ws/install/motor_test/share/motor_test
